@@ -1,0 +1,4 @@
+-keep class android.app.Application { <init>(); }
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.example.bengkel_mekanik.MainActivity { <init>(); }
+-keep class com.here.sdk.engine.InitProvider { <init>(); }

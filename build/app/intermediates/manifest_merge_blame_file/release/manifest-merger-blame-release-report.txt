@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bengkel_mekanik"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+8-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:glEsVersion="0x00020000" />
+11-->[:here_sdk] D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\build\here_sdk\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-54
+11-->[:here_sdk] D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\build\here_sdk\intermediates\merged_manifest\release\AndroidManifest.xml:9:19-51
+12
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:heresdk-explore-4.12.10.0.10253.release:] C:\Users\Lenovo\.gradle\caches\transforms-3\097a2b9969b9958b1bfed324778a2d64\transformed\jetified-heresdk-explore-4.12.10.0.10253.release\AndroidManifest.xml:9:5-79
+13-->[:heresdk-explore-4.12.10.0.10253.release:] C:\Users\Lenovo\.gradle\caches\transforms-3\097a2b9969b9958b1bfed324778a2d64\transformed\jetified-heresdk-explore-4.12.10.0.10253.release\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[:heresdk-explore-4.12.10.0.10253.release:] C:\Users\Lenovo\.gradle\caches\transforms-3\097a2b9969b9958b1bfed324778a2d64\transformed\jetified-heresdk-explore-4.12.10.0.10253.release\AndroidManifest.xml:10:5-67
+14-->[:heresdk-explore-4.12.10.0.10253.release:] C:\Users\Lenovo\.gradle\caches\transforms-3\097a2b9969b9958b1bfed324778a2d64\transformed\jetified-heresdk-explore-4.12.10.0.10253.release\AndroidManifest.xml:10:22-64
+15
+16    <application
+17        android:name="android.app.Application"
+17-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:7:9-42
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] C:\Users\Lenovo\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:8:9-43
+21        android:label="bengkel_mekanik" >
+21-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:6:9-40
+22        <activity
+22-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:12:9-32:20
+23            android:name="com.example.bengkel_mekanik.MainActivity"
+23-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:13:13-41
+24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+24-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:17:13-163
+25            android:exported="true"
+25-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:14:13-36
+26            android:hardwareAccelerated="true"
+26-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:18:13-47
+27            android:launchMode="singleTop"
+27-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:15:13-43
+28            android:theme="@style/LaunchTheme"
+28-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:16:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:19:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:24:13-27:17
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:25:15-70
+39                android:resource="@style/NormalTheme" />
+39-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:26:15-52
+40
+41            <intent-filter>
+41-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:28:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:29:17-68
+42-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:29:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:30:17-76
+44-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:35:9-37:33
+52            android:name="flutterEmbedding"
+52-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:36:13-44
+53            android:value="2" />
+53-->D:\Flutter\irmanto\bengkel_mekanik\bengkel_mekanik\android\app\src\main\AndroidManifest.xml:37:13-30
+54
+55        <uses-library
+55-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+56            android:name="androidx.window.extensions"
+56-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+58        <uses-library
+58-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+59            android:name="androidx.window.sidecar"
+59-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+60            android:required="false" /> <!-- ${applicationId} will be replaced to ${applicationId} after the manifest merge. -->
+60-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+61        <provider
+61-->[:heresdk-explore-4.12.10.0.10253.release:] C:\Users\Lenovo\.gradle\caches\transforms-3\097a2b9969b9958b1bfed324778a2d64\transformed\jetified-heresdk-explore-4.12.10.0.10253.release\AndroidManifest.xml:15:9-18:40
+62            android:name="com.here.sdk.engine.InitProvider"
+62-->[:heresdk-explore-4.12.10.0.10253.release:] C:\Users\Lenovo\.gradle\caches\transforms-3\097a2b9969b9958b1bfed324778a2d64\transformed\jetified-heresdk-explore-4.12.10.0.10253.release\AndroidManifest.xml:16:13-60
+63            android:authorities="com.example.bengkel_mekanik.com.here.sdk.engine.InitProvider"
+63-->[:heresdk-explore-4.12.10.0.10253.release:] C:\Users\Lenovo\.gradle\caches\transforms-3\097a2b9969b9958b1bfed324778a2d64\transformed\jetified-heresdk-explore-4.12.10.0.10253.release\AndroidManifest.xml:17:13-84
+64            android:exported="false" />
+64-->[:heresdk-explore-4.12.10.0.10253.release:] C:\Users\Lenovo\.gradle\caches\transforms-3\097a2b9969b9958b1bfed324778a2d64\transformed\jetified-heresdk-explore-4.12.10.0.10253.release\AndroidManifest.xml:18:13-37
+65    </application>
+66
+67</manifest>

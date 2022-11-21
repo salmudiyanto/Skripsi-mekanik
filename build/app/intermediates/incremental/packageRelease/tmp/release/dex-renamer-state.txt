@@ -1,0 +1,4 @@
+#Mon Nov 21 10:48:29 SGT 2022
+base.0=D\:\\Flutter\\irmanto\\bengkel_mekanik\\bengkel_mekanik\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
